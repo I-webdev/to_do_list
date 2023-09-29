@@ -1,0 +1,104 @@
+body{
+  background-color: black;
+  color: white;
+}
+.parent-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+button{
+  background-color: limegreen;
+  padding: 5px 20px;
+  border: 1px solid;
+  color: white;
+  border-radius: 30px;
+} 
+
+.header-container{
+  display:flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+}
+.left-header-lines hr, .right-header-lines hr{
+ width: 30px;
+  
+}
+.middle h1{
+  font-family: 'Great vibes', cursive;
+}
+textarea{
+  color: white;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: white;
+  background-color: black;
+  resize: none;
+  
+}
+
+input{
+  align-self: center;
+}
+form{
+  display: flex;
+  
+  margin-bottom: 20px;
+}
+li{
+ list-style: none;
+}
+input{
+  align-self: center;
+  
+  
+
+}
+.other{
+  text-decoration: line-through;
+  text-decoration-color:#d39c1e;
+  text-decoration-thickness: 2px;
+}
+input:checked{
+  accent-color:#d39c1e;
+}
+
+@media (max-width: 591px) {
+  .end-sentence{
+  display: none;
+}
+}
+
+/*first page*/
+
+.home-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:70vh;
+}
+.left{
+  font-family: 'lobster', cursive;
+  max-width: 60vw;
+  
+}
+
+.homepage-image{
+  width:37vw;
+}
+
+@media (max-width:480px) {
+  .homepage-image{
+    height :50vh;
+  }
+  .home-header{
+    height: 100vh;
+  }
+}
+
+/*display of the button to none on mobile*/
