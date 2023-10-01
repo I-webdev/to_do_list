@@ -77,12 +77,14 @@ input:checked{
 /*first page*/
 
 .home-header{
+  
   display: flex;
   justify-content: center;
   align-items: center;
-  height:70vh;
+  
 }
 .left{
+  
   font-family: 'lobster', cursive;
   max-width: 60vw;
   
@@ -90,15 +92,21 @@ input:checked{
 
 .homepage-image{
   width:37vw;
+  
 }
+
+
+
+/*media query for the first page*/
 
 @media (max-width:480px) {
   .homepage-image{
     height :50vh;
   }
+ 
+}
+@media (min-width:480px) {
   .home-header{
-    height: 100vh;
+    height:70vh;
   }
 }
-
-/*display of the button to none on mobile*/
